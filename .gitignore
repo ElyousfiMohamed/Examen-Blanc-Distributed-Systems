@@ -1,0 +1,11 @@
+
+AxonServer-4.6.1/AxonIQ.pid
+AxonServer-4.6.1/axonserver-cli.jar
+AxonServer-4.6.1/axonserver.jar
+AxonServer-4.6.1/data/axonserver-controldb.mv.db
+AxonServer-4.6.1/data/default/00000000000000000000.events
+AxonServer-4.6.1/data/default/00000000000000000000.snapshots
+AxonServer-4.6.1/kubernetes/axonserver.yaml
+AxonServer-4.6.1/plugins/cache/bundle0/last.java.version
+AxonServer-4.6.1/README.txt
+AxonServer-4.6.1/LICENSE.txt

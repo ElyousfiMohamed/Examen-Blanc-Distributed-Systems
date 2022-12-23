@@ -2,17 +2,21 @@ package com.example.examen_blanc.immatriculationQuerySide.controllers;
 
 import com.example.examen_blanc.commonApi.query.GetAllProprietairesQuery;
 import com.example.examen_blanc.commonApi.query.GetProprietaireById;
+import com.example.examen_blanc.commonApi.query.GetVehiculeById;
 import com.example.examen_blanc.immatriculationQuerySide.entities.Proprietaire;
+import com.example.examen_blanc.immatriculationQuerySide.entities.Vehicule;
 import com.example.examen_blanc.immatriculationQuerySide.repositories.ProprietaireRepository;
 import lombok.AllArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
 import org.axonframework.queryhandling.QueryHandler;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @AllArgsConstructor
@@ -27,18 +31,17 @@ public class ProprietaireQueryController {
     }
 
     @QueryHandler
-    public List<Proprietaire> handle(GetAllProprietairesQuery query) {
+    public List<Proprietaire> on(GetAllProprietairesQuery query) {
         return proprietaireRepository.findAll();
     }
 
     @GetMapping("/getProprietaire/{id}")
-    public Proprietaire getProprietaire(String id) {
+    public Proprietaire getProprietaire(@PathVariable String id) {
         return queryGateway.query(new GetProprietaireById(id),ResponseTypes.instanceOf(Proprietaire.class)).join();
     }
 
     @QueryHandler
-    public Proprietaire handle(GetProprietaireById query) {
+    public Proprietaire on(GetProprietaireById query) {
         return proprietaireRepository.findById(query.getId()).orElse(null);
     }
-    
 }

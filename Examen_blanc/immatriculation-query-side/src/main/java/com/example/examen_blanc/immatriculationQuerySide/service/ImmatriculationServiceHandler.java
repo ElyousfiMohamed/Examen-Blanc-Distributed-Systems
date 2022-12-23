@@ -58,7 +58,9 @@ public class ImmatriculationServiceHandler {
         vehicule.setMatricule(event.getMatricule());
         vehicule.setPuissanceFiscale(event.getPuissanceFiscale());
         Proprietaire proprietaire = proprietaireRepository.findById(event.getProprietaireId()).get();
-        vehicule.setProprietaire(proprietaire);
+        if (proprietaire != null) {
+            vehicule.setProprietaire(proprietaire);
+        }
         vehiculeRepository.save(vehicule);
     }
 

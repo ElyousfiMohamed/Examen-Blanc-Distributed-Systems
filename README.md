@@ -158,14 +158,14 @@
     <p>ProprietaireQueryController</p>
     <img src="./Images/Screenshot_77.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <p>VehiculeQueryController</p>
-    <img src="./Images/Screenshot_79.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_82.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <p>Test (Postman)</p>
     <p>getAllProprietaires</p>
-    <img src="./Images/Screenshot_80.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_79.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <p>getProprietaireById</p>
-    <img src="./Images/Screenshot_81.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_80.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <p>getAllVehicules</p>
-    <img src="./Images/Screenshot_82.png" alt="Test" width="700" style="border: 2px solid black;"/>
-    <p>getVehiculeById</p>
     <img src="./Images/Screenshot_83.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>getVehiculeById</p>
+    <img src="./Images/Screenshot_84.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>

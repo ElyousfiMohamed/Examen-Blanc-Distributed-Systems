@@ -168,4 +168,41 @@
     <img src="./Images/Screenshot_83.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <p>getVehiculeById</p>
     <img src="./Images/Screenshot_84.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Axon Server</p>
+    <img src="./Images/Screenshot_85.png" alt="Test" width="700" style="border: 2px solid black;"/>
+</details>
+<details>
+    <summary>📝 Micro-service Infractions (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>- Command-side</h5>
+    <p>InfracationAggregate</p>
+    <img src="./Images/Screenshot_86.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_87.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>InfracationCommandController</p>
+    <img src="./Images/Screenshot_88.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_89.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Test (Postman)</p>
+    <p>Création d'une infraction</p>
+    <img src="./Images/Screenshot_91.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_92.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Modification d'une infraction</p>
+    <img src="./Images/Screenshot_93.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_94.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <h5>- Query-side</h5>
+    <p>Entity Infracation</p>
+    <img src="./Images/Screenshot_95.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Repository InfracationRepository</p>
+    <img src="./Images/Screenshot_96.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>InfracationEventHandler (CreateInfracationEventHandler)</p>
+    <img src="./Images/Screenshot_97.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>InfracationEventHandler (UpdateInfracationEventHandler)</p>
+    <img src="./Images/Screenshot_98.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>InfracationQueryController</p>
+    <img src="./Images/Screenshot_99.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Test (Postman)</p>
+    <p>getAllInfracations</p>
+    <img src="./Images/Screenshot_100.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>getInfracationById</p>
+    <img src="./Images/Screenshot_101.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Axon Server</p>
+    <img src="./Images/Screenshot_102.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>

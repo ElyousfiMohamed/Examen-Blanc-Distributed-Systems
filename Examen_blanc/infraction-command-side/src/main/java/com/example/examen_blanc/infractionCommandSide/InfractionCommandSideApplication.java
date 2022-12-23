@@ -1,4 +1,4 @@
-package com.example.examen_blanc.radarQuerySide;
+package com.example.examen_blanc.infractionCommandSide;
 
 import com.thoughtworks.xstream.XStream;
 import org.axonframework.commandhandling.CommandBus;
@@ -8,12 +8,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class RadarQuerySideApplication {
+public class InfractionCommandSideApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(RadarQuerySideApplication.class, args);
+        SpringApplication.run(InfractionCommandSideApplication.class, args);
     }
-
     @Bean
     public XStream xStream() {
         XStream xStream = new XStream();

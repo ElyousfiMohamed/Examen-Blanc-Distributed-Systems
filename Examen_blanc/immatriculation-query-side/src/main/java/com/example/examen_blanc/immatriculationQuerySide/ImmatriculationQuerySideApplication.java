@@ -21,8 +21,4 @@ public class ImmatriculationQuerySideApplication {
         xStream.allowTypesByWildcard(new String[] { "com.example.**" });
         return xStream;
     }
-    @Bean
-    public CommandBus commandBus() {
-        return SimpleCommandBus.builder().build();
-    }
 }

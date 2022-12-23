@@ -11,5 +11,6 @@ public class CreateVehiculeRequestDTO {
     private String matricule;
     private String marque;
     private String modele;
+    private String puissanceFiscale;
     private String proprietaireId;
 }

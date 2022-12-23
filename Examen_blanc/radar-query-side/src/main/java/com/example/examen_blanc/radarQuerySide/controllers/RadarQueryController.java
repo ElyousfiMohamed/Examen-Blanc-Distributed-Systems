@@ -1,7 +1,7 @@
 package com.example.examen_blanc.radarQuerySide.controllers;
 
 import com.example.examen_blanc.commonApi.query.GetAllRadarsQuery;
-import com.example.examen_blanc.commonApi.query.GetQuaryById;
+import com.example.examen_blanc.commonApi.query.GetRadarById;
 import com.example.examen_blanc.radarQuerySide.entities.Radar;
 import com.example.examen_blanc.radarQuerySide.repositories.RadarRepository;
 import lombok.AllArgsConstructor;
@@ -35,16 +35,13 @@ public class RadarQueryController {
 
     @GetMapping("/getRadar/{id}")
     public Radar getRadar(@PathVariable String id){
-        return queryGateway.query(new GetQuaryById(id),
+        return queryGateway.query(new GetRadarById(id),
                 ResponseTypes.instanceOf(Radar.class)).join();
     }
 
     @QueryHandler
-    public Radar on(GetQuaryById query){
+    public Radar on(GetRadarById query){
         return radarRepository.findById(query
                 .getId()).get();
     }
-
-
-
 }

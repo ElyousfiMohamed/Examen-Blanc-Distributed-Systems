@@ -7,6 +7,8 @@
         <module>common-api</module>
         <module>radar-command-side</module>
         <module>radar-query-side</module>
+        <module>immatriculation-command-side</module>
+        <module>immatriculation-query-side</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -57,14 +59,14 @@
             <groupId>org.axonframework</groupId>
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>4.6.1</version>
-            <!--<exclusions>
+            <exclusions>
                 <exclusion>
                     <groupId>org.axonframework</groupId>
                     <artifactId>axon-server-connector</artifactId>
                 </exclusion>
-            </exclusions>-->
+            </exclusions>
         </dependency>
-    </dependencies>
+    </dependencies>w
 
     <build>
         <plugins>

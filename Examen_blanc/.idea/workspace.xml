@@ -5,95 +5,118 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="63112f44-4310-4a52-927d-2dde50b50a25" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/ExamenImmatriculationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/ExamenInfractionServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/ExamenRadarServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarCommandSide/aggregates/RadarAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarCommandSide/controllers/RadarCommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/repositories/RadarRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/BaseCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/BaseCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateInfractionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateInfractionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateProprietaireCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateProprietaireCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateRadarCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateRadarCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateVehiculeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/CreateVehiculeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateInfractionCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateInfractionCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateProprietaireCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateProprietaireCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateRadarCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateRadarCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateVehiculeCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/commands/UpdateVehiculeCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateInfractionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateInfractionRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateProprietaireRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateProprietaireRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateRadarRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateRadarRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateVehiculeRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/CreateVehiculeRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateInfractionRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateInfractionRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateProprietaireRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateProprietaireRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateRadarRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateRadarRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateVehiculeRequestDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/dtos/UpdateVehiculeRequestDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/BaseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/BaseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/InfractionCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/InfractionCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/InfractionUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/InfractionUpdatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/ProprietaireCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/ProprietaireCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/ProprietaireUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/ProprietaireUpdatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/RadarCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/RadarCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/RadarUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/RadarUpdatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/VehiculeCreatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/VehiculeCreatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/VehiculeUpdatedEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/events/VehiculeUpdatedEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllInfractionsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllInfractionsQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllProprietairesQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllProprietairesQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllRadarsQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllRadarsQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllVehiculesQuery.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetAllVehiculesQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetInfractionById.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetInfractionById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetProprietaireById.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetProprietaireById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetRadarById.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetRadarById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetVehiculeById.java" beforeDir="false" afterPath="$PROJECT_DIR$/common-api/src/main/java/com/example/examen_blanc/commonApi/query/GetVehiculeById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/java/com/example/examen_blanc/immatriculationCommandSide/ImmatriculationCommandSideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/java/com/example/examen_blanc/immatriculationCommandSide/aggregates/ProprietaireAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/aggregates/ProprietaireAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/java/com/example/examen_blanc/immatriculationCommandSide/aggregates/VehiculeAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/aggregates/VehiculeAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/java/com/example/examen_blanc/immatriculationCommandSide/controllers/ProprietaireCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/ProprietaireCommandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/java/com/example/examen_blanc/immatriculationCommandSide/controllers/VehiculeCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/VehiculeCommandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-command-side/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/ImmatriculationQuerySideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/controllers/ProprietaireQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/ProprietaireQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/controllers/VehiculeQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/VehiculeQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/entities/Proprietaire.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/entities/Proprietaire.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/entities/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/entities/Vehicule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/repositories/ProprietaireRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/repositories/ProprietaireRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/repositories/VehiculeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/repositories/VehiculeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/java/com/example/examen_blanc/immatriculationQuerySide/service/ImmatriculationServiceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/service/ImmatriculationServiceHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/immatriculation-query-side/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-command-side/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-command-side/src/main/java/com/example/examen_blanc/infractionCommandSide/InfractionCommandSideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-command-side/src/main/java/com/example/examen_blanc/infractionCommandSide/aggregates/InfracationAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionCommandSide/aggregates/InfracationAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-command-side/src/main/java/com/example/examen_blanc/infractionCommandSide/controllers/InfracationCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionCommandSide/controllers/InfracationCommandController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-command-side/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/InfractionQuerySideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/controllers/InfractionQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/controllers/InfractionQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/entities/Infraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/entities/Infraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/entities/Radar.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/entities/Radar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/entities/Vehicule.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/entities/Vehicule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/repositories/InfractionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/repositories/InfractionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/java/com/example/examen_blanc/infractionQuerySide/services/InfractionServiceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/services/InfractionServiceHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/infraction-query-side/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/Security/KeycloakAdapterConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/Security/KeycloakConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/Security/KeycloakAdapterConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/Security/KeycloakConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/Security/KeycloakAdapterConf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/Security/KeycloakConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_106.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_107.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_108.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_109.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_110.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_111.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_112.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_113.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_114.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_115.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_116.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_117.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_118.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_119.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Images/Screenshot_120.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.browserslistrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.vscode/extensions.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.vscode/launch.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/.vscode/tasks.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/Model/infraction.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/Model/vehicule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/app-routing.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/app.module.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/container/container.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/container/container.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/container/container.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/container/container.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/infraction/infraction.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/infraction/infraction.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/infraction/infraction.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/infraction/infraction.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/navbar/navbar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/navbar/navbar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/navbar/navbar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/navbar/navbar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/panel/panel.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/panel/panel.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/panel/panel.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/panel/panel.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/proprietaire/proprietaire.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/proprietaire/proprietaire.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/proprietaire/proprietaire.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/proprietaire/proprietaire.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/radar/radar.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/radar/radar.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/radar/radar.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/radar/radar.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/vehicule/vehicule.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/vehicule/vehicule.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/vehicule/vehicule.component.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/component/vehicule/vehicule.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/immatriculation.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/immatriculation.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/infraction.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/infraction.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/radar.service.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/service/radar.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/assets/.gitkeep" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/assets/car-christmas-transport-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/assets/construction-danger-exclamantion-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/assets/person-pouting-light-skin-tone-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/assets/radar-svgrepo-com.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/environments/environment.prod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/environments/environment.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/polyfills.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../examen_blanc-frontend/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscoveryService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../DiscoveryService/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../DiscoveryService/src/main/java/com/example/discoveryservice/DiscoveryServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/ExamenImmatriculationServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/ExamenImmatriculationServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/ProprietaireCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/ProprietaireCommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/VehiculeCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationCommandSide/controllers/VehiculeCommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/ProprietaireQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/ProprietaireQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/VehiculeQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/java/immatriculationService/immatriculationQuerySide/controllers/VehiculeQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-immatriculation-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-infraction-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/ExamenInfractionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/ExamenInfractionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionCommandSide/controllers/InfracationCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionCommandSide/controllers/InfracationCommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/controllers/InfractionQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/java/infractionService/infractionQuerySide/controllers/InfractionQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-infraction-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-radar-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/ExamenRadarServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/ExamenRadarServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarCommandSide/controllers/RadarCommandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarCommandSide/controllers/RadarCommandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/controllers/RadarQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/controllers/RadarQueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examen-radar-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-command-side/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-infraction-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-command-side/src/main/java/com/example/examen_blanc/radarCommandSide/RadarCommandSideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-command-side/src/main/java/com/example/examen_blanc/radarCommandSide/aggregates/RadarAggregate.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-command-side/src/main/java/com/example/examen_blanc/radarCommandSide/controllers/RadarCommandController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-command-side/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/examen-immatriculation-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/java/com/example/examen_blanc/radarQuerySide/RadarQuerySideApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/java/com/example/examen_blanc/radarQuerySide/controllers/RadarQueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/controllers/RadarQueryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/java/com/example/examen_blanc/radarQuerySide/entities/Radar.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/entities/Radar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/java/com/example/examen_blanc/radarQuerySide/repositories/RadarRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/java/com/example/examen_blanc/radarQuerySide/services/RadarServiceHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/examen-radar-service/src/main/java/radarService/radarQuerySide/services/RadarServiceHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/radar-query-side/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examen_blanc/commonApi/ExamenBlancApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../examen_blanc-frontend/src/app/Model/radar.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/examen_blanc/commonApi/ExamenBlancApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../GatewayService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../GatewayService/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayService/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GatewayService/src/main/java/com/example/gatwayservice/GatewayConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GatewayService/src/main/java/com/example/gatwayservice/GatewayConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,12 +145,15 @@
     <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="2JMJWG4xaDVDxdfHx3tMuP4Btlq" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -137,10 +163,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/examen-radar-service/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../examen_blanc-frontend" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.35287356" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -148,11 +174,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-immatriculation-service\src\main\java\immatriculationService" />
+      <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-radar-service\src\main\java\radarService" />
       <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-radar-service\src\main\resources" />
       <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-infraction-service\src\main\resources" />
       <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-infraction-service\src\main\java\infractionService\infractionQuerySide" />
-      <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-infraction-service\src\main\java\infractionService\infractionCommandSide" />
-      <recent name="D:\GITHUB\Examen Blanc Systèmes Distribués\Examen_blanc\examen-immatriculation-service\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="infractionService" />
@@ -166,7 +192,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ExamenImmatriculationServiceApplication">
+  <component name="RunManager" selected="Spring Boot.ExamenRadarServiceApplication">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -177,6 +203,15 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="rest-api_2#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_2#2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_2.http" index="2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="rest-api_3#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/rest-api_3.http" runType="Run single request">
+      <method v="2" />
     </configuration>
     <configuration name="ExamenBlancApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Examen_blanc" />
@@ -198,14 +233,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExamenInfractionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="ExamenInfractionServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="examen-infraction-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="infractionService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="infractionService.ExamenInfractionServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -266,25 +295,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RadarServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="radar-service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.examen_blanc.radarService.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.examen_blanc.radarService.RadarServiceApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.ExamenImmatriculationServiceApplication" />
         <item itemvalue="Spring Boot.ExamenRadarServiceApplication" />
-        <item itemvalue="Spring Boot.ExamenInfractionServiceApplication" />
-        <item itemvalue="Spring Boot.RadarServiceApplication" />
+        <item itemvalue="Spring Boot.ExamenImmatriculationServiceApplication" />
+        <item itemvalue="HTTP Request.rest-api_3#1" />
+        <item itemvalue="HTTP Request.rest-api_2#1" />
+        <item itemvalue="HTTP Request.rest-api_2#2" />
       </list>
     </recent_temporary>
   </component>
@@ -297,11 +314,19 @@
       <option name="presentableId" value="Default" />
       <updated>1671882051349</updated>
       <workItem from="1671882053047" duration="3712000" />
+      <workItem from="1671896272888" duration="195000" />
+      <workItem from="1671896485224" duration="5296000" />
+      <workItem from="1671902931653" duration="1981000" />
+      <workItem from="1671905137364" duration="379000" />
+      <workItem from="1671905551591" duration="6197000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,22 @@
+<div style="display: flex;justify-content: center;align-items: center;margin-bottom: 20px">
+  <button pButton pRipple type="button" style="font-size:25px" class="p-button-outlined p-button-rounded p-button-info">
+    <img alt="logo" src="assets/construction-danger-exclamantion-svgrepo-com.svg" style="width: 2.5rem"/>&nbsp;La Liste des Infractions
+  </button>
+</div>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let infraction of infractions" style="height: 290px">
+    <div class="card">
+      <div class="card-body">
+        <h6 class="card-title">{{infraction.id}}</h6>
+        <span class="card-text"><b>Date :</b> {{infraction.date.split("T")[0]}}</span><br>
+        <span class="card-text"><b>Montant : </b>{{infraction.montant}}</span><br>
+        <span class="card-text"><b>Marque Vehicule : </b>{{infraction.vehicule.modele}}</span><br>
+        <span class="card-text"><b>Matricule Vehicule : </b>{{infraction.vehicule.marque}}</span><br>
+        <span class="card-text"><b>Radar (vit Max) : </b>{{infraction.radar.vitesseMax}} <b style="font-weight: bold;color: brown">km/h</b></span><br><br>
+        <span style="display: flex;align-items: center;justify-content: center">
+          <a href="#" class="btn btn-primary">Modifier</a>&nbsp;&nbsp;
+          <a href="#" class="btn btn-danger">Supprimer</a>
+        </span>
+      </div>
+    </div>
+  </div>

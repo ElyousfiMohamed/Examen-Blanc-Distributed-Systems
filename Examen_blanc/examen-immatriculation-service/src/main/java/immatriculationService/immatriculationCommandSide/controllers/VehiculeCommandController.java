@@ -16,6 +16,7 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/vehicule/commands")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class VehiculeCommandController {
     private final CommandGateway commandGateway;
     private final EventStore eventStore;

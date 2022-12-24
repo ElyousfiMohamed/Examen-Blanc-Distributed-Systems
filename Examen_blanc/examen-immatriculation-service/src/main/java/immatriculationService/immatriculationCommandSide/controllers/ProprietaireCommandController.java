@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/proprietaire/commands")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class ProprietaireCommandController {
     private CommandGateway commandGateway;
     private EventStore eventStore;

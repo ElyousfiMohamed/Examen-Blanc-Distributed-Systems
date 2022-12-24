@@ -5,12 +5,6 @@
     <packaging>pom</packaging>
     <modules>
         <module>common-api</module>
-        <module>radar-command-side</module>
-        <module>radar-query-side</module>
-        <module>immatriculation-command-side</module>
-        <module>immatriculation-query-side</module>
-        <module>infraction-command-side</module>
-        <module>infraction-query-side</module>
         <module>examen-radar-service</module>
         <module>examen-immatriculation-service</module>
         <module>examen-infraction-service</module>
@@ -64,12 +58,12 @@
             <groupId>org.axonframework</groupId>
             <artifactId>axon-spring-boot-starter</artifactId>
             <version>4.6.1</version>
-            <!--<exclusions>
+            <exclusions>
                 <exclusion>
                     <groupId>org.axonframework</groupId>
                     <artifactId>axon-server-connector</artifactId>
                 </exclusion>
-            </exclusions>-->
+            </exclusions>
         </dependency>
     </dependencies>
 

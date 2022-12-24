@@ -1,0 +1,22 @@
+<div style="display: flex;justify-content: center;align-items: center;margin-bottom: 20px">
+  <button pButton pRipple type="button" style="font-size:25px" class="p-button-outlined p-button-rounded p-button-info">
+    <img alt="logo" src="assets/car-christmas-transport-svgrepo-com.svg" style="width: 2.5rem"/>&nbsp;La Liste des Vehicules
+  </button>
+</div>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let car of vehicules" style="height: 340px">
+    <div class="card">
+      <div class="card-body">
+        <span class="card-text"><b>Marque :</b> {{car.marque}}</span><br>
+        <span class="card-text"><b>Modele : </b>{{car.modele}}</span><br>
+        <span class="card-text"><b>Matricule : </b>{{car.matricule}}</span><br>
+        <span class="card-text"><b>Puissance Fiscale : </b>{{car.puissanceFiscale}}</span><br>
+        <span class="card-text"><b>Proprietaire : </b>{{car.proprietaire.nom + " " + car.proprietaire.prenom}}</span><br>
+        <span class="card-text"><b>Email : </b>{{car.proprietaire.email}}</span><br><br>
+        <span style="display: flex;align-items: center;justify-content: center">
+          <a href="#" class="btn btn-primary">Modifier</a>&nbsp;&nbsp;
+          <a href="#" class="btn btn-danger">Supprimer</a>
+        </span>
+      </div>
+    </div>
+  </div>

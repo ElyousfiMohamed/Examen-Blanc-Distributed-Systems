@@ -6,10 +6,7 @@ import lombok.AllArgsConstructor;
 import org.axonframework.messaging.responsetypes.ResponseTypes;
 import org.axonframework.queryhandling.QueryGateway;
 import org.axonframework.queryhandling.QueryHandler;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import radarService.radarQuerySide.entities.Radar;
 import radarService.radarQuerySide.repositories.RadarRepository;
 
@@ -18,6 +15,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/radar/queries")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class RadarQueryController {
     private QueryGateway queryGateway;
     private RadarRepository radarRepository;

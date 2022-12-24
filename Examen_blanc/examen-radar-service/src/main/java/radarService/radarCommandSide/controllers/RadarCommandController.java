@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/radar/commands")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class RadarCommandController {
 
     private CommandGateway commandGateway;

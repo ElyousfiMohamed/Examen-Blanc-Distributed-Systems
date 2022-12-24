@@ -1,0 +1,22 @@
+<div style="display: flex;justify-content: center;align-items: center;margin-bottom: 20px">
+  <button pButton pRipple type="button" style="font-size:25px" class="p-button-outlined p-button-rounded p-button-info">
+    <img alt="logo" src="assets/person-pouting-light-skin-tone-svgrepo-com.svg" style="width: 2.5rem"/>&nbsp;La Liste des Proprietaires
+  </button>
+</div>
+<div class="row">
+  <div class="col-sm-3" *ngFor="let owner of proprietaires" style="height: 290px">
+    <div class="card">
+      <div class="card-body">
+        <h6 class="card-title">{{owner.id}}</h6>
+        <span class="card-text"><b>Nom :</b> {{owner.nom}}</span><br>
+        <span class="card-text"><b>Prenom : </b>{{owner.prenom}}</span><br>
+        <span class="card-text"><b>Date de naissance : </b>{{owner.ddn.split("T")[0]}}</span><br>
+        <span class="card-text"><b>Email : </b>{{owner.email}}</span><br>
+        <span class="card-text"><b>Telephone : </b>{{owner.numTel}}</span><br><br>
+        <span style="display: flex;align-items: center;justify-content: center">
+          <a href="#" class="btn btn-primary">Modifier</a>&nbsp;&nbsp;
+          <a href="#" class="btn btn-danger">Supprimer</a>
+        </span>
+      </div>
+    </div>
+  </div>

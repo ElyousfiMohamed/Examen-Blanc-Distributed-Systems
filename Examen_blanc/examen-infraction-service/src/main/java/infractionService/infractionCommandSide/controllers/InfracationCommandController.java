@@ -18,6 +18,7 @@ import java.util.stream.Stream;
 @RestController
 @RequestMapping("/infraction/commands")
 @AllArgsConstructor
+@CrossOrigin("*")
 public class InfracationCommandController {
     private final CommandGateway commandGateway;
     private final EventStore eventStore;

@@ -212,21 +212,50 @@
     <img src="./Images/Screenshot_103.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <h5>Gateway-config</h5>
     <img src="./Images/Screenshot_104.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_106.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <h3>
-</details>
-<details>
-    <summary>📝 Frontend Angular (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
-    <h5>Frontend Angular</h5>
 </details>
 <details>
     <summary>📝 Securité des microservices - Keycloak (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
     <h5>Sécurité des microservices</h5>
+    <p>examen_blanc-realm</p>
+    <img src="./Images/Screenshot_107.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>examen_blanc-client</p>
+    <img src="./Images/Screenshot_108.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>user mohamed</p>
+    <img src="./Images/Screenshot_109.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_110.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>creation des roles (Admin, User)</p>
+    <img src="./Images/Screenshot_111.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>affecter les roles aux user "mohamed"</p>
+    <img src="./Images/Screenshot_112.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>dependences</p>
+    <img src="./Images/Screenshot_114.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>application.properties</p>
+    <img src="./Images/Screenshot_113.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_115.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>Configuration</p>
+    <img src="./Images/Screenshot_116.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <img src="./Images/Screenshot_117.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <h5>Test (Postman)</h5>
+    <p>Unauthorized</p>
+    <img src="./Images/Screenshot_118.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>get access token</p>
+    <img src="./Images/Screenshot_119.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>access to /infraction/queries/getAllInfracations using the token</p>
+    <img src="./Images/Screenshot_120.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <important style="font-weight: bold; color: red;">meme démarche pour les autres microservices<important>
+    <p>    
 </details>
 <details>
-    <summary>📝 Docker (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
-    <h5>Docker</h5>
+    <summary>📝 Frontend Angular (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>Frontend Angular</h5>
+    <p>La liste des radars</p>
+    <img src="./Images/Screenshot_121.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>la liste des propriétaires</p>
+    <img src="./Images/Screenshot_122.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>la liste des Vehicles</p>
+    <img src="./Images/Screenshot_123.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <p>la liste des infracations</p>
+    <img src="./Images/Screenshot_124.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>
-
-
-
-

@@ -206,3 +206,27 @@
     <p>Axon Server</p>
     <img src="./Images/Screenshot_102.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>
+<details>
+    <summary>📝 Gateway, Eureka Discovery service (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>Discovery service</h5>
+    <img src="./Images/Screenshot_103.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <h5>Gateway-config</h5>
+    <img src="./Images/Screenshot_104.png" alt="Test" width="700" style="border: 2px solid black;"/>
+    <h3>
+</details>
+<details>
+    <summary>📝 Frontend Angular (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>Frontend Angular</h5>
+</details>
+<details>
+    <summary>📝 Securité des microservices - Keycloak (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>Sécurité des microservices</h5>
+</details>
+<details>
+    <summary>📝 Docker (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <h5>Docker</h5>
+</details>
+
+
+
+

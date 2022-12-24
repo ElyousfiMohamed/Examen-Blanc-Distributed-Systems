@@ -4,7 +4,7 @@
 <h5>Diagramme de classe</h5>
 <img src="./Images/Screenshot_1.png" alt="Diagramme de classe" width="700" style="border: 2px solid black;"/>
 <details>
-    <summary>📝 Common-Api (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Common-Api (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems/tree/master/Examen_blanc/common-api/src/main/java/com/example/examen_blanc/commonApi" target="_blank">[Code Source]</a></summary>
     <p>
         <p>Common-Api</p>
         <img src="./Images/Screenshot_2.png" alt="Common-Api" width="700" style="border: 2px solid black;"/>
@@ -71,7 +71,7 @@
     </p>
 </details>
 <details>
-    <summary>📝 Micro-service Radar (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Micro-service Radar (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems/tree/master/Examen_blanc/examen-radar-service/src/main/java/radarService" target="_blank">[Code Source]</a></summary>
     <h5>- Command-side</h5>
     <p>RadarAggregate</p>
     <img src="./Images/Screenshot_21.png" alt="RadarAggregate" width="700" style="border: 2px solid black;"/>
@@ -109,7 +109,7 @@
     <img src="./Images/Screenshot_48.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>
 <details>
-    <summary>📝 Micro-service Immatriculation (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Micro-service Immatriculation (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems/tree/master/Examen_blanc/examen-immatriculation-service/src/main/java/immatriculationService" target="_blank">[Code Source]</a></summary>
     <h5>- Command-side</h5>
     <p>ProprietaireAggregate</p>
     <img src="./Images/Screenshot_51.png" alt="Test" width="700" style="border: 2px solid black;"/>
@@ -172,7 +172,7 @@
     <img src="./Images/Screenshot_85.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>
 <details>
-    <summary>📝 Micro-service Infractions (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Micro-service Infractions (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems/tree/master/Examen_blanc/examen-infraction-service/src/main/java/infractionService" target="_blank">[Code Source]</a></summary>
     <h5>- Command-side</h5>
     <p>InfracationAggregate</p>
     <img src="./Images/Screenshot_86.png" alt="Test" width="700" style="border: 2px solid black;"/>
@@ -207,7 +207,7 @@
     <img src="./Images/Screenshot_102.png" alt="Test" width="700" style="border: 2px solid black;"/>
 </details>
 <details>
-    <summary>📝 Gateway, Eureka Discovery service (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Gateway, Eureka Discovery service (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems" target="_blank">[Code Source]</a></summary>
     <h5>Discovery service</h5>
     <img src="./Images/Screenshot_103.png" alt="Test" width="700" style="border: 2px solid black;"/>
     <h5>Gateway-config</h5>
@@ -216,7 +216,7 @@
     <h3>
 </details>
 <details>
-    <summary>📝 Securité des microservices - Keycloak (Clique to expand 🖱️) <a href="" target="_blank">[Code Source]</a></summary>
+    <summary>📝 Securité des microservices - Keycloak (Clique to expand 🖱️) <a href="https://github.com/ElyousfiMohamed/Examen-Blanc-Distributed-Systems" target="_blank">[Code Source]</a></summary>
     <h5>Sécurité des microservices</h5>
     <p>examen_blanc-realm</p>
     <img src="./Images/Screenshot_107.png" alt="Test" width="700" style="border: 2px solid black;"/>
